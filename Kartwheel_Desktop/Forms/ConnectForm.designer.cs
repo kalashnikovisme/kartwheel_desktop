@@ -37,12 +37,13 @@
 			// button1
 			// 
 			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.button1.Location = new System.Drawing.Point(16, 279);
+			this.button1.Location = new System.Drawing.Point(12, 257);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(204, 53);
 			this.button1.TabIndex = 3;
-			this.button1.Text = "Выбрать";
+			this.button1.Text = "Подключиться";
 			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// textBox1
 			// 
@@ -116,11 +117,11 @@
 			this.textBox4.Size = new System.Drawing.Size(307, 26);
 			this.textBox4.TabIndex = 10;
 			// 
-			// Form1
+			// ConnectForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(330, 344);
+			this.ClientSize = new System.Drawing.Size(330, 324);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.textBox4);
 			this.Controls.Add(this.label3);
@@ -130,7 +131,7 @@
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.button1);
-			this.Name = "Form1";
+			this.Name = "ConnectForm";
 			this.Text = "Подключение к БД";
 			this.ResumeLayout(false);
 			this.PerformLayout();

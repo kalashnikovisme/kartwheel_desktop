@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\DLLs\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConfiguration.cs" />
-    <Compile Include="ConnectAttributesController.cs" />
+    <Compile Include="Controllers\ConnectsController.cs" />
     <Compile Include="DBMS_Adapters\DMBS_Adapter.cs" />
     <Compile Include="DBMS_Adapters\MySQL_Adapter.cs" />
     <Compile Include="Forms\ChooseDBMSForm.cs">
@@ -59,12 +62,6 @@
     </Compile>
     <Compile Include="Forms\ConnectForm.designer.cs">
       <DependentUpon>ConnectForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

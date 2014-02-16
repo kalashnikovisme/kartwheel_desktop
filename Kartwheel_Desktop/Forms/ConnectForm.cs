@@ -13,5 +13,14 @@ namespace Kartwheel_Desktop.Forms {
 		public ConnectForm() {
 			InitializeComponent();
 		}
+
+		private void button1_Click(object sender, EventArgs e) {
+			List<string> attr = new List<string>();
+			attr.Add(textBox1.Text);
+			attr.Add(textBox2.Text);
+			attr.Add(textBox3.Text);
+			attr.Add(textBox4.Text);
+			Controllers.ConnectsController.ConnectToDatabase(attr.ToArray());
+		}
 	}
 }
