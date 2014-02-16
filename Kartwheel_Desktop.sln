@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kartwheel_Desktop", "Kartwheel_Desktop\Kartwheel_Desktop.csproj", "{D866BCC0-A067-47F1-B222-DC46A20C682E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D866BCC0-A067-47F1-B222-DC46A20C682E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D866BCC0-A067-47F1-B222-DC46A20C682E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D866BCC0-A067-47F1-B222-DC46A20C682E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D866BCC0-A067-47F1-B222-DC46A20C682E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
