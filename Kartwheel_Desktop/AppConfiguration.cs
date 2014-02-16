@@ -20,5 +20,18 @@ namespace Kartwheel_Desktop {
 			}
 			return adapters;
 		}
+
+		static public string GetClassName(string DBMS_Name) {
+			XmlDocument xml = new XmlDocument();
+			xml.Load("ConfigFiles/DBMS_Adapters.xml");
+			foreach (XmlElement el in xml.GetElementsByTagName("Adapter")) {
+				foreach (XmlElement attr in el.GetElementsByTagName("Name")) {
+					if (attr.InnerText == DBMS_Name) {
+						return el.GetElementsByTagName("Class")[0].InnerText;
+					}
+				}
+			}
+			return null;
+		}
 	}
 }

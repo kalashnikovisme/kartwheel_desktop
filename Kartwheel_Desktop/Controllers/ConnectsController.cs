@@ -7,13 +7,16 @@ using MySql.Data.MySqlClient;
 
 namespace Kartwheel_Desktop.Controllers {
 	public static class ConnectsController {
-		static public void OpenDialogGetAttributes() {
+		static string DBMS_Name;
+		static public void OpenDialogGetAttributes(string db_name) {
+			DBMS_Name = db_name;
 			Program.MainForm.Visible = false;
 			Program.MainForm = new Forms.ConnectForm();
 			Program.MainForm.Show();			
 		}
 
 		static public void ConnectToDatabase(string[] attributes) {
+			System.Windows.Forms.MessageBox.Show(AppConfiguration.GetClassName(DBMS_Name));
 			string connectionString = "server=" + attributes[0] + ";database=" + attributes[1] + "";
 			MySqlConnection connection = new MySqlConnection(connectionString);
 			connection.Open();

@@ -17,7 +17,7 @@ namespace Kartwheel_Desktop.Forms {
 		}
 
 		private void button1_Click(object sender, EventArgs e) {
-			Controllers.ConnectsController.OpenDialogGetAttributes();
+			Controllers.ConnectsController.OpenDialogGetAttributes(listBox.SelectedItem.ToString());
 		}
 	}
 }
