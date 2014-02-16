@@ -1,1 +1,10 @@
 Q:\Programming\projects\csharp\Kartwheel_Desktop\Kartwheel_Desktop\bin\Debug\Kartwheel_Desktop.exe.config
+Q:\Programming\projects\csharp\Kartwheel_Desktop\Kartwheel_Desktop\obj\Debug\Kartwheel_Desktop.csprojResolveAssemblyReference.cache
+Q:\Programming\projects\csharp\Kartwheel_Desktop\Kartwheel_Desktop\obj\Debug\Kartwheel_Desktop.Properties.Resources.resources
+Q:\Programming\projects\csharp\Kartwheel_Desktop\Kartwheel_Desktop\obj\Debug\Kartwheel_Desktop.csproj.GenerateResource.Cache
+Q:\Programming\projects\csharp\Kartwheel_Desktop\Kartwheel_Desktop\bin\Debug\Kartwheel_Desktop.exe
+Q:\Programming\projects\csharp\Kartwheel_Desktop\Kartwheel_Desktop\bin\Debug\Kartwheel_Desktop.pdb
+Q:\Programming\projects\csharp\Kartwheel_Desktop\Kartwheel_Desktop\obj\Debug\Kartwheel_Desktop.exe
+Q:\Programming\projects\csharp\Kartwheel_Desktop\Kartwheel_Desktop\obj\Debug\Kartwheel_Desktop.pdb
+Q:\Programming\projects\csharp\Kartwheel_Desktop\Kartwheel_Desktop\obj\Debug\Kartwheel_Desktop.Forms.ChooseDBMSForm.resources
+Q:\Programming\projects\csharp\Kartwheel_Desktop\Kartwheel_Desktop\bin\Debug\ConfigFiles\DBMS_Adapters.xml

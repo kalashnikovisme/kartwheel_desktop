@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Adapter>
+  <Name>MySQL</Name>
+  <Class>MySQL_Adapter</Class>
+</Adapter>
