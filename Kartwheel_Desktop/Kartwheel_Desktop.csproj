@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConfiguration.cs" />
+    <Compile Include="ConnectAttributesController.cs" />
     <Compile Include="DBMS_Adapters\DMBS_Adapter.cs" />
     <Compile Include="DBMS_Adapters\MySQL_Adapter.cs" />
     <Compile Include="Forms\ChooseDBMSForm.cs">
@@ -53,10 +54,20 @@
     <Compile Include="Forms\ChooseDBMSForm.designer.cs">
       <DependentUpon>ChooseDBMSForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ConnectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConnectForm.designer.cs">
+      <DependentUpon>ConnectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\ChooseDBMSForm.resx">
       <DependentUpon>ChooseDBMSForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConnectForm.resx">
+      <DependentUpon>ConnectForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

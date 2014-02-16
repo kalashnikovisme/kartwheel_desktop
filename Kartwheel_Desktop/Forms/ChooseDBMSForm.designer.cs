@@ -30,28 +30,29 @@
 			// button1
 			// 
 			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.button1.Location = new System.Drawing.Point(13, 116);
+			this.button1.Location = new System.Drawing.Point(13, 104);
 			this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(114, 38);
 			this.button1.TabIndex = 3;
 			this.button1.Text = "Выбрать";
 			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// listBox
 			// 
 			this.listBox.FormattingEnabled = true;
 			this.listBox.ItemHeight = 20;
-			this.listBox.Location = new System.Drawing.Point(20, 9);
+			this.listBox.Location = new System.Drawing.Point(12, 12);
 			this.listBox.Name = "listBox";
-			this.listBox.Size = new System.Drawing.Size(612, 84);
+			this.listBox.Size = new System.Drawing.Size(220, 84);
 			this.listBox.TabIndex = 4;
 			// 
 			// ChooseDBMSForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(644, 165);
+			this.ClientSize = new System.Drawing.Size(256, 157);
 			this.Controls.Add(this.listBox);
 			this.Controls.Add(this.button1);
 			this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));

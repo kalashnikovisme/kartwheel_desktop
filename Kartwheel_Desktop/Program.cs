@@ -12,7 +12,10 @@ namespace Kartwheel_Desktop {
 		static void Main() {
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Kartwheel_Desktop.Forms.ChooseDBMSForm());
+			Application.Run(MainForm = new Forms.ChooseDBMSForm());
 		}
+		internal static Kartwheel_Desktop.Forms.ConnectForm ConnectForm;
+		internal static Kartwheel_Desktop.Forms.ChooseDBMSForm ChooseForm;
+		internal static Form MainForm;
 	}
 }
