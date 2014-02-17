@@ -16,7 +16,6 @@ namespace Kartwheel_Desktop.Controllers {
 		}
 
 		static public void ConnectToDatabase(string[] attributes) {
-			System.Windows.Forms.MessageBox.Show(AppConfiguration.GetClassName(DBMS_Name));
 			string connectionString = "server=" + attributes[0] + ";database=" + attributes[1] + "";
 			MySqlConnection connection = new MySqlConnection(connectionString);
 			connection.Open();
