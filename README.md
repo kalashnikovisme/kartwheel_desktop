@@ -1,4 +1,4 @@
-kartwheel_desktop
+Kartwheel Desktop
 =================
 
 .NET ORM
